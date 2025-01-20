@@ -1,7 +1,7 @@
 ---
-title: A mountain escape
-description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
-heroImage: ./couple-9-square.jpg
+title: Gdansk, Polonia
+description: El viaje por al cual todo acaba de comenzar.
+heroImage: ./Gdansk.jpg
 date: "Aug 5 2024"
 location: Malibu, California
 clients: [Hannah, Marco]
