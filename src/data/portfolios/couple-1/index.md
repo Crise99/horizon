@@ -1,8 +1,8 @@
 ---
-title: Gdansk
-description: El viaje por al cual todo acaba de comenzar
-heroImage: ./Gdansk.jpg
-date: "Dic 14 2024"
+title: A mountain escape
+description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
+heroImage: ./couple-9-square.jpg
+date: "Aug 5 2024"
 location: Gdansk, Polonia
 clients: [Nuria, Cristian]
 images:
