@@ -1,6 +1,6 @@
 ---
 title: Gdansk
-description: El viaje por al cual todo acaba de comenzar.
+description: El viaje por al cual todo acaba de comenzar
 heroImage: ./Gdansk.jpg
 date: "Dic 14 2024"
 location: Gdansk, Polonia
