@@ -1,10 +1,10 @@
 ---
-title: Gdansk, Polonia
+title: Gdansk
 description: El viaje por al cual todo acaba de comenzar.
 heroImage: ./Gdansk.jpg
-date: "Aug 5 2024"
-location: Malibu, California
-clients: [Hannah, Marco]
+date: "Dic 14 2024"
+location: Gdansk, Polonia
+clients: [Nuria, Cristian]
 images:
   [
     [./couple-2-min-1.jpg, ./couple-2-min-1.jpg],
