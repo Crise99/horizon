@@ -16,7 +16,7 @@ export interface SiteDataProps {
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-  name: "Nuria&Cristian",
+  name: "Nuria & Cristian",
   // Your website's title and description (meta fields)
   title:
     "Bienvenidos a la boda de Nuria y Cristian",
