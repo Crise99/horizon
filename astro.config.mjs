@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import compress from "@playform/compress";
 import AutoImport from "astro-auto-import";
-import cloudflare from "@astrojs/cloudflare";
+//import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
