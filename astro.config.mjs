@@ -6,20 +6,10 @@ import sitemap from "@astrojs/sitemap";
 import tailwind from "@astrojs/tailwind";
 import compress from "@playform/compress";
 import AutoImport from "astro-auto-import";
-//import cloudflare from "@astrojs/cloudflare";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.bodanuriaycristian.com",
-  adapter: cloudflare({
-    imageService: "compile",
-  }),
-  // compatibility requirements for Cloudflare Pages
-  vite: {
-    ssr: {
-      external: ["stream", "util", "os", "fs", "svgo"],
-    },
-  },
+  site: "https://www.bodanuriaycristian.com/",
   integrations: [
     // example auto import component into blog post mdx files
     AutoImport({
