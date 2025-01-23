@@ -22,10 +22,6 @@ const navConfig: navItem[] = [
     link: "/portfolio",
   },
   {
-    text: "Pricing",
-    link: "/#pricing",
-  },
-  {
     text: "Pages",
     dropdown: [
       {
