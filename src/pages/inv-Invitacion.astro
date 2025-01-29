@@ -1,0 +1,29 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import Hero from "@/sections/Hero.astro";
+import Countdown from "@/sections/Countdown.astro";
+import PrincipalDate from "@/sections/PrincipalDate.astro";
+import Message from "@/sections/Message.astro";
+import Party from "@/sections/Party.astro";
+import Instagram from "@/sections/Instagram.astro";
+import Footer from "@/sections/Footer.astro";
+
+---
+
+<Layout title="Boda Nuria y Cristian">
+	<div id="hero" 
+	class="hidden"
+	>
+
+			<Hero />
+			<section class="p-4">
+				<Countdown />
+				<PrincipalDate />
+				<Message />
+				<Party />
+				<Instagram />
+				<Footer />
+			</section>
+
+	</div>
+</Layout>
