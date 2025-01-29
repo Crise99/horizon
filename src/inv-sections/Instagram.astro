@@ -1,0 +1,37 @@
+---
+
+import Title from "@/components/Title.astro";
+import InstagramIcon from "@/icons/InstagramIcon.astro";
+---
+
+<section>
+    <div
+        class="max-w-[1140px] phone:w-full phone:px-2 mx-auto mb-12 mt-12 desktop:mb-14 desktop:mt-24 text-color01 flex gap-3 justify-center items-center flex-col"
+    >
+        <Title title="Compartimos este día junto a ti" />
+        <span
+            class="font-rubik desktop:text-xl text-center font-extralight text-gray-400"
+        >
+            Comparte tus fotos y videos de este hermoso día
+        </span>
+        <InstagramIcon class="w-16 mt-6" />
+        <p class="font-raleway text-4xl text-color03 desktop:text-6xl">
+            @dahilua
+        </p>
+        <a
+            href="https://www.instagram.com/dahilua/"
+            class="bg-color01 mt-10 translate-x-2 transition max-w-40 min-w-40 text-center text-color02 py-3 rounded-3xl"
+            target="_blank"
+        >
+            Ver en Instagram
+        </a>
+    </div>
+</section>
+
+<style>
+ 
+    a:hover {
+        background-color: rgb(195 128 11 / 73%);
+        @apply animate-pulsing;
+    }
+</style>

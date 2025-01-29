@@ -1,0 +1,51 @@
+---
+import ControlMusic from '@/components/ControlMusic.jsx'
+---
+
+<main id="landing-intro" >
+    <section class="max-w-[650px] text-center animate-blurred-fade-in">
+        <h1
+            style="line-height: 45px;"
+            class="text-center font-medium font-parisienne text-[#B97600] text-[65px] desktop:text-[50px]"
+        >
+            Bienvenidos
+        </h1>
+        <p class="text-[#6F6F6E] mt-4 desktop:text-2xl text-lg">
+            Queremos contar contigo en el día mas especial de nuestras vidas
+        </p>
+
+        <div class="desktop:mt-5 mt-3">
+            <ControlMusic client:load />
+       
+        </div>
+    </section>
+</main>
+<style>
+    #landing-intro {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        position: relative;
+        @apply mx-8;
+    }
+    .btn-music {
+        background-color: #b97600;
+        color: white;
+
+        @apply px-10;
+        @apply py-3;
+        @apply rounded-3xl;
+        @apply shadow-md;
+        @apply font-medium;
+        margin: 8px;
+    }
+    @media (max-width: 1023px) {
+        .btn-music {
+            @apply text-xs;
+            @apply px-8;
+            @apply py-3;
+        }
+    }
+</style>
+

@@ -1,0 +1,37 @@
+---
+import MessageCard from "@/components/MessageCard.astro";
+import Divider from "@/components/Divider.astro";
+import Title from "@/components/Title.astro";
+---
+
+<section>
+    <div
+        class="max-w-[1140px] phone:w-full phone:px-2 mx-auto mb-12 mt-12 desktop:mb-14 desktop:mt-24 text-color01 flex gap-3 justify-center items-center flex-col"
+    >
+        <Title title="Mensaje de los novios" />
+        <span
+            class="font-rubik desktop:text-xl text-center font-extralight text-gray-400"
+        >
+            Un minuto, un segundo, un instante que queda en la eternidad
+        </span>
+        <img src="/heard-message.gif" class="w-28 mx-auto" title="gift de corazón" />
+    </div>
+    <div
+        class="max-w-[1140px] flex flex-row flex-wrap gap-8 desktop:gap-4 mx-auto justify-center items-center"
+    >
+        <MessageCard
+            person="Dahiana"
+            message={`Queremos compartir con cada uno de ustedes un día muy especial para nosotros, una de las decisiones más importantes de nuestra vida. Nos vamos a sentir afortunados de estar rodeados de nuestros seres queridos y amistades, con quienes hemos tenido la oportunidad de compartir momentos inolvidables. Esperamos que nos puedan acompañar y pasen una noche memorable.`}
+            image="novia.jpg"
+        />
+
+        <MessageCard
+            person="Johan"
+            message={`
+Cada minuto es importante y especial, como aquellos que hemos vivido en algún momento, y este no tiene por qué ser diferente. Pensamos en ti y en cómo formas parte de nuestra historia. Por ello, espero que nos puedas acompañar en un día muy especial para nosotros y tener, una vez más, la oportunidad de pasar un momento de dicha y felicidad ante una decisión tan importante. ¡Te esperamos!
+        `}
+            image="novio.jpg"
+        />
+    </div>
+    <Divider />
+</section>

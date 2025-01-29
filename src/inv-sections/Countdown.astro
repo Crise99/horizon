@@ -1,0 +1,85 @@
+---
+import Divider from "@/components/Divider.astro";
+import Title from "@/components/Title.astro";
+
+const TIMESTAMP_END = 1723320000000;
+---
+
+<section
+    class="max-w-6xl desktop:px-16 pt-20 pb-10 text-center mx-auto flex flex-col items-center justify-center"
+>
+        <Title title="Falta" />
+    <div data-date={TIMESTAMP_END} class="flex flex-row mt-5">
+        <div class="border-r-[1px] flex flex-col px-5 border-[#6F6F6E]">
+            <span data-days class="text-[#89713E] text-4xl desktop:text-5xl">
+                00
+            </span>
+            <span class="text-[#6F6F6E] desktop:text-[25px] "> DIAS </span>
+        </div>
+
+        <div class="border-r-[1px] flex flex-col px-5 border-[#6F6F6E]">
+            <span data-hours class="text-[#89713E] text-4xl desktop:text-5xl">
+                00
+            </span>
+            <span class="text-[#6F6F6E] desktop:text-[25px]"> HS </span>
+        </div>
+
+        <div class="border-r-[1px] flex flex-col px-5 border-[#6F6F6E]">
+            <span data-minutes class="text-[#89713E] text-4xl desktop:text-5xl"
+                >00
+            </span>
+            <span class="text-[#6F6F6E] desktop:text-[25px]"> MIN </span>
+        </div>
+        <div class="px-5 flex flex-col">
+            <span data-seconds class="text-[#89713E] text-4xl desktop:text-5xl">
+                00
+            </span>
+            <span class="text-[#6F6F6E] desktop:text-[25px]"> SEG </span>
+        </div>
+    </div>
+    <Divider />
+</section>
+<script>
+    const SECOND = 1000; //1000ms
+    const MINUTE = SECOND * 60; // 60s -> 60000ms
+    const HOUR = MINUTE * 60; // 60m -> 3600s -> 360000ms
+    const DAY = HOUR * 24;
+    function init() {
+        const $countdown = document.querySelector("[data-date]");
+        if (!$countdown) return;
+        const $days = $countdown.querySelector("[data-days]");
+        const $hours = $countdown.querySelector("[data-hours]");
+        const $minutes = $countdown.querySelector("[data-minutes]");
+        const $seconds = $countdown.querySelector("[data-seconds]");
+
+        const timestamp = $countdown.getAttribute("data-date");
+        if (!timestamp) return;
+
+        const date = new Date(+timestamp).getTime();
+
+        const formatTime = (time: number) => {
+            return Math.floor(time).toString().padStart(2, "0");
+        };
+
+        function updateCountdown() {
+            const now = Date.now();
+            const diff = date - now;
+
+            if ($days instanceof HTMLElement) {
+                $days.innerText = formatTime(diff / DAY);
+            }
+            if ($hours instanceof HTMLElement) {
+                $hours.innerText = formatTime((diff % DAY) / HOUR);
+            }
+            if ($minutes instanceof HTMLElement) {
+                $minutes.innerText = formatTime((diff % HOUR) / MINUTE);
+            }
+            if ($seconds instanceof HTMLElement) {
+                $seconds.innerText = formatTime((diff % MINUTE) / SECOND);
+            }
+        }
+
+        setInterval(updateCountdown, SECOND);
+    }
+    init();
+</script>

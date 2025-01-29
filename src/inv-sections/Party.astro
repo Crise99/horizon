@@ -1,0 +1,49 @@
+---
+import CardParty from "@/components/CardParty.jsx";
+import Divider from "@/components/Divider.astro";
+import Title from "@/components/Title.astro";
+---
+
+<section>
+    <div
+        class="max-w-[1140px] phone:w-full phone:px-2 mx-auto mb-12 mt-12 desktop:mb-14 desktop:mt-24 text-color01 flex gap-3 justify-center items-center flex-col"
+    >
+        <Title title="Fiesta" />
+        <span
+            class="font-rubik desktop:text-xl text-center font-extralight text-gray-400"
+        >
+            Hagamos juntos una fiesta épica. Aquí algunos detalles a tener en
+            cuenta.
+        </span>
+    </div>
+    <div
+        class="max-w-[1240px] phone:w-full phone:px-2 mx-auto mb-12 desktop:mb-14 desktop:mt-24 text-color01 flex gap-3 justify-center items-center flex-col"
+    >
+        <div
+            class="flex flex-wrap justify-center items-center flex-row gap-8 flex-1"
+        >
+            <CardParty
+                guid="1"
+                title="Música"
+                icon="music"
+                description="¿Cuál es la canción que no debe faltar en la PlayList de la fiesta?"
+                client:load
+            />
+            <CardParty
+                guid="2"
+                title="Dress Code"
+                icon="dress-code"
+                description="Una orientación para tu vestuario"
+                client:load
+            />
+            <CardParty
+                guid="3"
+                title="Tips y Notas"
+                icon="tips"
+                description="Información importante para tener en cuenta"
+                client:load
+            />
+        </div>
+    </div>
+</section>
+<Divider />
