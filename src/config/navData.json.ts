@@ -36,10 +36,6 @@ const navConfig: navItem[] = [
         text: "Elements",
         link: "/elements/",
       },
-      {
-        text: "404",
-        link: "/not-a-link/",
-      },
     ],
   },
 ];
