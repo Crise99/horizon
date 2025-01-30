@@ -1,0 +1,58 @@
+---
+import Loader from "@/inv-components/Loader.jsx";
+import Intro from "@/inv-sections/Intro.astro";
+import "@fontsource/parisienne";
+interface Props {
+	title: string;
+}
+import { ViewTransitions } from "astro:transitions";
+import "@fontsource-variable/raleway";
+import "@fontsource/parisienne";
+import "@fontsource-variable/rubik";
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="description"
+			content="Invitación para el matrimonio de Dahiana y Johan"
+		/>
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+		<title>{title}</title>
+		<ViewTransitions />
+	</head>
+	<body>
+		<Loader client:load />
+		<Intro />
+		<slot />
+		<script>
+			// al seleccionar cualquiera de los botones el main se oculte
+			const main = document.getElementById("landing-intro");
+			// identficiar id hero
+			const hero = document.getElementById("hero");
+			const btns = document.querySelectorAll(".btn-music");
+			btns.forEach((btn) => {
+				btn.addEventListener("click", () => {
+					main.classList.add("animate-fade-out");
+					setTimeout(() => {
+						main.style.display = "none";
+						hero.classList.add("animate-fade-in");
+						hero.classList.remove("hidden");
+					}, 100);
+				});
+			});
+		</script>
+		<style is:global>
+			* {
+				box-sizing: border-box;
+			}
+			html {
+				background: rgba(255, 253, 253, 0.856);
+			}
+		</style>
+	</body>
+</html>
