@@ -22,6 +22,10 @@ const navConfig: navItem[] = [
     link: "/portfolio",
   },
   {
+    text: "invitación",
+    link: "/invitacion",
+  },
+  {
     text: "Pages",
     dropdown: [
       {

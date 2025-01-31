@@ -1,0 +1,48 @@
+---
+const title = "Invitación de Boda";
+const bride = "Nombre de la Novia";
+const groom = "Nombre del Novio";
+const date = "Fecha de la Boda";
+const location = "Lugar de la Boda";
+---
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{title}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        .invitation {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .invitation h1 {
+            color: #d9534f;
+        }
+        .invitation p {
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+    <div class="invitation">
+        <h1>{title}</h1>
+        <p>Con gran alegría, {bride} y {groom} les invitan a celebrar su boda.</p>
+        <p>Fecha: {date}</p>
+        <p>Lugar: {location}</p>
+        <p>Esperamos contar con su presencia en este día tan especial.</p>
+    </div>
+</body>
+</html>
