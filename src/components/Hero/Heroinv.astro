@@ -12,9 +12,6 @@ import Button from "@components/Button/Button.astro";
 // images
 import heroImage from "@images/hero.webp";
 import heroImageMobile from "@images/hero.webp";
-import markOpen from "@images/mark_open.svg";
-import markClose from "@images/mark_close.svg";
-import arrowDown from "@images/arrow_down.gif";
 ---
 
 <section
@@ -94,15 +91,15 @@ import arrowDown from "@images/arrow_down.gif";
             <div
                 class="text-center flex justify-center items-center flex-col mt-7 gap-5"
             >
-                <img src={markOpen} class="w-10" />
+                <img src="/src/images/mark_open.svg" class="w-10" />
                 <p class="text-xl greater-desktop:text-2xl font-rubik text-color02">
                     En cada mirada, en cada gesto, en cada silencio compartido, encontramos la esencia de lo que significa amarnos.
                 </p>
-                <img src={markClose} class="w-10" />
+                <img src="/src/images/mark_close.svg" class="w-10" />
             </div>
         </div>
         <div class="flex justify-center mt-5 items-center">
-            <img src={arrowDown} class="w-14 desktop:w-20" alt="" />
+            <img src="/src/images/arrow_down.gif" class="w-14 desktop:w-20" alt="" />
         </div>
     </div>
 </section>
