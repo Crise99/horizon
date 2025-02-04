@@ -20,7 +20,7 @@ import arrow from "@images/arrow_down.gif";
 
 <section
   id="hero"
-  class="relative flex min-h-[100lvh] w-full bg-black bg-opacity-60"
+  class="relative flex min-h-[100lvh] w-full bg-black bg-opacity-40"
 >
   <!-- background image -->
   <div class="absolute -z-20 h-full min-h-full w-full overflow-hidden">
@@ -47,17 +47,37 @@ import arrow from "@images/arrow_down.gif";
     class="site-container w-full gap-10 py-44 text-center md:py-52 md:text-left"
   >
     <!-- Hero text -->
-    <div class="my-auto mr-auto max-w-[800px] flex-col text-base-50">
-      <h1
-        class="font-heading-1 text-pretty text-4xl font-semibold drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] md:text-7xl md:leading-tight"
-      >
-        Bienvenidos a la boda de Nuria y Cristian
-      </h1>
-      <p
-        class="mt-8 text-pretty text-lg tracking-widest drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] md:max-w-[550px] md:text-2xl"
-      >
-        Estamos encantados de compartir contigo este bonito dia y el sin fin de recuerdos inolvidables que juntos vamos a crear.
-      </p>
+    <div
+    class="info-hero z-50 flex flex-col justify-center items-center absolute text-center mx-auto greater-desktop:max-w-3xl desktop:max-w-xl  max-w-80 h-[670px]"
+>
+    <div>
+        <span
+            class="date-hero w-full table text-2xl desktop:text-xl  greater-desktop:text-2xl text-color02 mb-12 font-rubik font-semibold"
+        >
+            08.06.2025
+        </span>
+        <h1
+            class="married-hero   custom-hero border-b-[1px] pb-8 border-b-white text-6xl greater-desktop:text-8xl text-color02 font-parisienne flex flex-col"
+        >
+            Nuria
+
+            <span> & </span>
+            Cristian
+        </h1>
+        <div
+            class="text-center flex justify-center items-center flex-col mt-7 gap-5"
+        >
+            <img src={markopen.src} class="w-10" />
+            <p class="text-xl greater-desktop:text-2xl font-rubik text-color02">
+                En cada mirada, en cada gesto, en cada silencio compartido, encontramos la esencia de lo que significa amarnos.
+            </p>
+            <img src={markclose.src} class="w-10" />
+        </div>
+    </div>
+    <div class="flex justify-center mt-5 items-center">
+        <img src={arrow.src} class="w-14 desktop:w-20" alt="" />
+    </div>
+</div>
       <div class="mt-10 flex flex-wrap justify-center gap-4 md:justify-start">
         <Button
           variant="ghost"
@@ -75,35 +95,5 @@ import arrow from "@images/arrow_down.gif";
 <section
     class="greater-desktop:h-screen desktop:h-[670px]  h-[670px] hero-section desktop:w-full w-full flex justify-center items-center bg-fixed bg-hero-pattern bg-cover bg-no-repeat bg-center"
 >
-    <div
-        class="info-hero z-50 flex flex-col justify-center items-center absolute text-center mx-auto greater-desktop:max-w-3xl desktop:max-w-xl  max-w-80 h-[670px]"
-    >
-        <div>
-            <span
-                class="date-hero w-full table text-2xl desktop:text-xl  greater-desktop:text-2xl text-color02 mb-12 font-rubik font-semibold"
-            >
-                08.06.2025
-            </span>
-            <h1
-                class="married-hero   custom-hero border-b-[1px] pb-8 border-b-white text-6xl greater-desktop:text-8xl text-color02 font-parisienne flex flex-col"
-            >
-                Nuria
-
-                <span> & </span>
-                Cristian
-            </h1>
-            <div
-                class="text-center flex justify-center items-center flex-col mt-7 gap-5"
-            >
-                <img src={markopen.src} class="w-10" />
-                <p class="text-xl greater-desktop:text-2xl font-rubik text-color02">
-                    En cada mirada, en cada gesto, en cada silencio compartido, encontramos la esencia de lo que significa amarnos.
-                </p>
-                <img src={markclose.src} class="w-10" />
-            </div>
-        </div>
-        <div class="flex justify-center mt-5 items-center">
-            <img src={arrow.src} class="w-14 desktop:w-20" alt="" />
-        </div>
-    </div>
+    
 </section>
