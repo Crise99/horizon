@@ -1,9 +1,15 @@
 ---
-import Divider from "@/components/Divider.astro";
 import { Image } from 'astro:assets';
-import ceremonia from '../../images/ceremonia.gif';
 
+// components
+import Divider from "@/components/Divider.astro";
+
+// images
+import ceremonia from '../../images/ceremonia.gif';
+import fiesta from '../../images/celebration.gif';
 ---
+
+
 
 <section
     class="max-w-6xl desktop:mx-auto mx-4 text-center flex gap-20 desktop:gap-10 flex-wrap justify-center items-center"
@@ -46,7 +52,7 @@ import ceremonia from '../../images/ceremonia.gif';
         </ul>
     </div>
     <div class="desktop:w-[45%]">
-        <img src="/images/celebration.gif" class="w-32 mx-auto" alt="icono de fiesta" />
+        <img src={fiesta}} class="w-32 mx-auto" alt="icono de fiesta" />
         <div class="title-pd py-4">
             <h3 class="font-parisienne text-5xl text-color01">Cena & Fiesta</h3>
         </div>
