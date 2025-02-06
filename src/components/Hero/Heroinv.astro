@@ -78,3 +78,50 @@ import markclose from "@images/mark_close.svg";
     </div>
   </div>
 </section>
+<style>
+  .date-hero::before,
+  .date-hero::after {
+      border-top: 1px solid white;
+      content: "";
+      display: table-cell;
+      position: relative;
+      top: 0.7em;
+      width: 25%;
+  }
+  #parrallax-hero {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 725px;
+      object-fit: cover;
+
+  }
+
+  .hero-section::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 725px;
+      background-color: rgba(29, 29, 27, 0.2);
+      z-index: 0;
+      top: 0;
+      left: 0;
+  }
+  @media (min-width: 993px) {
+      #parrallax-hero {
+          height: 725px;
+      }
+      .hero-section::before {
+          height: 725px;
+      }
+  }
+  @media (min-width: 1745px) {
+      #parrallax-hero {
+          height: 100vh;
+      }
+      .hero-section::before {
+          height: 100vh;
+      }
+  }
+</style>
