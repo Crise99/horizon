@@ -1,16 +1,10 @@
 /** @type {import('tailwindcss').Config} */
 
-import typography from "@tailwindcss/typography";
-
 const defaultTheme = require("tailwindcss/defaultTheme");
 const colors = require("tailwindcss/colors");
-const {heroui} = require("@heroui/react");
-
 
 module.exports = {
-  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}",
-    "./node_modules/@heroui/theme/dist/**/*.{js,ts,jsx,tsx}",
-  ],
+  content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   theme: {
     screens: {
       xs: "400px",
@@ -75,5 +69,5 @@ module.exports = {
       ],
     },
   },
-  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms"), typography,heroui()],
+  plugins: [require("@tailwindcss/typography"), require("@tailwindcss/forms")],
 };
