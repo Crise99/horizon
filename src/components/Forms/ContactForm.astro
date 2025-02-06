@@ -37,14 +37,27 @@ import Button from "@components/Button/Button.astro";
     />
   </div>
   <div>
-    <label for="contact-date" class="font-heading-1 text-lg uppercase"
-      >Fecha
+    <label for="contact-tel" class="font-heading-1 text-lg uppercase"
+      >Teléfono de contacto
     </label>
     <input
-      type="date"
+      type="number"
       class="form__input"
-      name="date"
-      id="contact-date"
+      name="telefono"
+      id="contact-tel"
+      placeholder=""
+      required
+    />
+  </div>
+  <div>
+    <label for="contact-asistentes" class="font-heading-1 text-lg uppercase"
+      >Número de asistentes
+    </label>
+    <input
+      type="number"
+      class="form__input"
+      name="asistentes"
+      id="contact-asistentes"
       placeholder=""
       required
     />
