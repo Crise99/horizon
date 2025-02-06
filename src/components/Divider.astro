@@ -1,3 +1,10 @@
+---
+import { Image } from 'astro:assets';
+
+// images
+import divider from '@images/divider.png';
+---
+
 <div class="divider"></div>
 <style>
     .divider {
@@ -10,7 +17,7 @@
         margin-left: auto;
         width: 80%;
         height: 120px;
-        background-image: url("/divider.png");
+        background-image: url(divider.src);
         background-repeat: no-repeat;
         background-size: contain;
         background-position: center center;
