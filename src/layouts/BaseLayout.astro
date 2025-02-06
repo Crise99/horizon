@@ -1,6 +1,5 @@
 ---
 import { type CollectionEntry } from "astro:content";
-import { ClientRouter } from "astro/transitions";
 
 // component imports
 import BaseHead from "@layouts/BaseHead.astro";
@@ -33,7 +32,6 @@ const {
 
 <!doctype html>
 <html lang="en" transition:animate="fade">
-  <ClientRouter />
   <head>
     <BaseHead
       type={type}
