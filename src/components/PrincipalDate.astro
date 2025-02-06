@@ -86,4 +86,36 @@ import Divider from "@/components/Divider.astro";
     type="text/javascript"
     src="https://cdn.addevent.com/libs/atc/1.6.1/atc.min.js"
     async
-    defer></script>
+    defer>
+</script>
+<style>
+    .title-pd {
+        border-top: 1px solid #c6c6c5;
+        border-button: 1px solid #c6c6c5;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    li {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    button {
+        @apply w-[280px];
+        @apply mx-auto;
+    }
+    a {
+        @apply w-[280px];
+        @apply mx-auto;
+    }
+    a:hover {
+        background-color: rgb(195 128 11 / 73%);
+    }
+    button:hover {
+        background-color: rgb(195 128 11 / 73%);
+    }
+</style>
