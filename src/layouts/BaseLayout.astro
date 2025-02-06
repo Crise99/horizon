@@ -33,6 +33,7 @@ const {
 
 <!doctype html>
 <html lang="en" transition:animate="fade">
+  <ClientRouter />
   <head>
     <BaseHead
       type={type}
@@ -40,7 +41,6 @@ const {
       description={description}
       image={heroImage ? heroImage : undefined}
       noindex={noindex}
-      <ClientRouter />
     />
   </head>
   <body id="body" class="bg-base-50 text-base-900">
