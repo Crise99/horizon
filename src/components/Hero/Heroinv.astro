@@ -18,13 +18,13 @@ import markclose from "@images/mark_close.svg";
 
 <section
   id="hero"
-  class="relative flex min-h-[100lvh] w-full bg-black bg-opacity-50"
+  class="relative flex min-h-[100lvh] w-full bg-black"
 >
   <!-- background image -->
   <div class="absolute -z-20 h-full min-h-full w-full overflow-hidden">
     <Image
       src={heroImage}
-      class="hidden h-auto min-h-full w-full object-cover object-bottom sm:block"
+      class="hidden h-auto min-h-full w-full object-contain object-bottom sm:block"
       alt="wedding"
       aria-hidden="true"
       loading="eager"
@@ -32,7 +32,7 @@ import markclose from "@images/mark_close.svg";
     />
     <Image
       src={heroImageMobile}
-      class="h-auto min-h-full w-full object-cover sm:hidden"
+      class="h-auto min-h-full w-full object-contain sm:hidden"
       alt="wedding"
       aria-hidden="true"
       loading="eager"
@@ -96,7 +96,7 @@ import markclose from "@images/mark_close.svg";
       left: 0;
       width: 100%;
       height: 725px;
-      object-fit: cover;
+      object-fit: contain;
 
   }
 
