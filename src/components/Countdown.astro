@@ -55,7 +55,7 @@ const TIMESTAMP_END = 1749402000;
         const timestamp = $countdown.getAttribute("data-date");
         if (!timestamp) return;
 
-        const date = new Date(+timestamp).getTime();
+        const date = new Date(+timestamp * 1000).getTime();
 
         const formatTime = (time: number) => {
             return Math.floor(time).toString().padStart(2, "0");

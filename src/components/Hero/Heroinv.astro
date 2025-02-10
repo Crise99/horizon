@@ -10,21 +10,21 @@ import { Image } from "astro:assets";
 import Button from "@components/Button/Button.astro";
 
 // images
-import heroImage from "@images/Invitacion.png";
-import heroImageMobile from "@images/Invitacion.png";
+import heroImage from "@images/hero.webp";
+import heroImageMobile from "@images/hero.webp";
 import markopen from "@images/mark_open.svg";
 import markclose from "@images/mark_close.svg";
 ---
 
 <section
   id="hero"
-  class="relative flex min-h-[100lvh] w-full bg-black"
+  class="relative flex min-h-[100lvh] w-full bg-black bg-opacity-50"
 >
   <!-- background image -->
   <div class="absolute -z-20 h-full min-h-full w-full overflow-hidden">
     <Image
       src={heroImage}
-      class="hidden h-auto min-h-full w-full object-contain object-bottom sm:block"
+      class="hidden h-auto min-h-full w-full object-cover object-bottom sm:block"
       alt="wedding"
       aria-hidden="true"
       loading="eager"
@@ -32,7 +32,7 @@ import markclose from "@images/mark_close.svg";
     />
     <Image
       src={heroImageMobile}
-      class="h-auto min-h-full w-full object-contain sm:hidden"
+      class="h-auto min-h-full w-full object-cover sm:hidden"
       alt="wedding"
       aria-hidden="true"
       loading="eager"
@@ -41,11 +41,10 @@ import markclose from "@images/mark_close.svg";
   </div>
 
   <!-- hero items -->
-  <!--
   <div
     class="site-container w-full gap-10 py-44 text-center md:py-52 md:text-center"
   >
-    
+    <!-- Hero text -->
     <div class="my-auto mx-auto max-w-[800px] flex-col text-base-50 text-center">
       <h1
         class="font-heading-1 text-pretty text-4xl font-semibold drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] md:text-7xl md:leading-tight"
@@ -78,7 +77,6 @@ import markclose from "@images/mark_close.svg";
       </div>
     </div>
   </div>
-  -->
 </section>
 <style>
   .date-hero::before,
@@ -96,7 +94,7 @@ import markclose from "@images/mark_close.svg";
       left: 0;
       width: 100%;
       height: 725px;
-      object-fit: contain;
+      object-fit: cover;
 
   }
 
