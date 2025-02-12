@@ -8,7 +8,8 @@ export const GET: APIRoute = async () => {
     const {data, error} = await resend.emails.send({
         "from": "Boda Nuria y Cristian <confirmaciones@bodanuriaycristian.com>",
         "to": ["cristian.s.arana@gmail.com"],
-        "subject": "Confirmo",
+        "subject": "Nueva Confirmación",
+        "html": "<strong>it works!</strong>",
     });
 
     if (error) {
