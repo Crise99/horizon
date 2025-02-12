@@ -6,7 +6,7 @@ const resend = new Resend(import.meta.env.RESEND_API_KEY);
 export const GET: APIRoute = async () => {
     // send an email
     const {data, error} = await resend.emails.send({
-        "from": "Boda Nuria y Cristian <confirmaciones@bodanuriaycristian.com>",
+        "from": "Boda Nuria y Cristian <onboarding@resend.com>",
         "to": ["cristian.s.arana@gmail.com"],
         "subject": "Nueva Confirmación",
         "html": "<strong>it works!</strong>",
