@@ -16,6 +16,6 @@ export const GET: APIRoute = async () => {
         return new Response(JSON.stringify({error}));
     }
 
-    return new Response(JSON.stringify({ data})); 
+    return new Response(JSON.stringify({data})); 
 
 };
