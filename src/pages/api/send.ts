@@ -3,7 +3,7 @@ import { Resend } from "resend";
 
 const resend = new Resend(import.meta.env.RESEND_API_KEY);
 
-export const POST: APIRoute = async ({ request }) => {
+export const post: APIRoute = async ({ request }) => {
     const formData = await request.formData();
 
     const name = formData.get("name");
