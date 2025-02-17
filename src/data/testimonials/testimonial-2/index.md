@@ -1,6 +1,6 @@
 ---
 title: ¿Nos acompañas a despegar?
-testimonial:
-image: ./couple-2-crop.jpg
+testimonial: Todo está listo, sientate y disfruta del viaje.
+image: ./sientate.jpg
 order: 2
 ---
