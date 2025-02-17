@@ -9,7 +9,7 @@ export const GET: APIRoute = async () => {
         "from": "Boda Nuria y Cristian <onboarding@resend.dev>",
         "to": ["cristian.s.arana@gmail.com"],
         "subject": "Nueva Confirmación",
-        "html": "<strong>it works!</strong>",
+        "html": "<strong>Nueva Confirmación!</strong>",
     });
 
     if (error) {
