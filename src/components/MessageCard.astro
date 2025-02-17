@@ -5,8 +5,8 @@ const { person, image, message } = Astro.props;
 <div class="max-w-sm w-full shadow-lg desktop:max-w-lg desktop:flex">
     <div
         class="h-48 desktop:h-auto desktop:w-48 flex-none bg-cover rounded-t desktop:rounded-t-none desktop:rounded-l text-center overflow-hidden"
-        style={`background-image: url('/photos/${image} ')`}
-        title="Woman holding a mug"
+        style={`background-image: url('${image}')`}
+        title="Imagen de ${person}"
     >
     </div>
     <div
