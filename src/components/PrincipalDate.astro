@@ -2,38 +2,34 @@
 import { Image } from 'astro:assets';
 
 // components
-import Divider from "@/components/Divider.astro";
 
 // images
-import maletas from '@images/Icono-viajes-boda-7.png';
 import destino from '@images/Icono-viajes-boda-1.png';
+import iglesia from '@images/Icono-Boho-1.png';
+
 ---
 
 
 
-<section
-    class="max-w-6xl desktop:mx-auto mx-4 text-center flex gap-20 desktop:gap-10 flex-wrap justify-center items-center mx-auto"
->
+<section class="max-w-6xl desktop:mx-auto mx-4 text-center flex gap-20 desktop:gap-10 flex-wrap justify-center items-center mx-auto">
     <div class="desktop:w-[45%]">
-        <img src={maletas.src} class="w-32 mx-auto" alt="icono ceremonia" />
+        <img src={destino.src} class="w-32 mx-auto" alt="icono de fiesta" />
         <div class="title-pd py-4">
-            <h3 class="font-parisienne text-5xl text-color01">Escala</h3>
+            <h3 class="font-parisienne text-5xl text-color01">Itinerario</h3>
         </div>
         <ul>
+            <img src={iglesis.src} class="w-32 mx-auto" alt="icono iglesia" />
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Día</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Domingo 08 de Junio - 17hs
                 </span>
             </li>
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Lugar</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Iglesia de la Asunción Molina de Segura
                 </span>
             </li>
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Dirección</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Pl. Iglesia, s/n, 30500 Molina de Segura, Murcia
                 </span>
@@ -41,28 +37,17 @@ import destino from '@images/Icono-viajes-boda-1.png';
                     ¿Cómo llegar?
                 </a>
             </li>
-        </ul>
-    </div>
-    <div class="desktop:w-[45%]">
-        <img src={destino.src} class="w-32 mx-auto" alt="icono de fiesta" />
-        <div class="title-pd py-4">
-            <h3 class="font-parisienne text-5xl text-color01">Cena & Fiesta</h3>
-        </div>
-        <ul>
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Día</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Domingo 08 de Junio - 19:30hs
                 </span>
             </li>
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Destino</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Finca Los Sauces
                 </span>
             </li>
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Dirección</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Ctra. De la Palma, km 4, 5, 30395 Cartagena, Murcia
                 </span>
