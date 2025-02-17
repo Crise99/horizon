@@ -5,8 +5,8 @@ import { Image } from 'astro:assets';
 import Divider from "@/components/Divider.astro";
 
 // images
-import ceremonia from '@images/ceremonia.gif';
-import fiesta from '@images/celebration.gif';
+import maletas from '@images/icono-viajes-boda-7.png';
+import destino from '@images/Icono-viajes-boda-1.png';
 ---
 
 
@@ -15,9 +15,9 @@ import fiesta from '@images/celebration.gif';
     class="max-w-6xl desktop:mx-auto mx-4 text-center flex gap-20 desktop:gap-10 flex-wrap justify-center items-center mx-auto"
 >
     <div class="desktop:w-[45%]">
-        <img src={ceremonia.src} class="w-32 mx-auto" alt="icono ceremonia" />
+        <img src={maletas.src} class="w-32 mx-auto" alt="icono ceremonia" />
         <div class="title-pd py-4">
-            <h3 class="font-parisienne text-5xl text-color01">Ceremonia</h3>
+            <h3 class="font-parisienne text-5xl text-color01">Escala</h3>
         </div>
         <ul>
             <li>
@@ -44,7 +44,7 @@ import fiesta from '@images/celebration.gif';
         </ul>
     </div>
     <div class="desktop:w-[45%]">
-        <img src={fiesta.src} class="w-32 mx-auto" alt="icono de fiesta" />
+        <img src={destino.src} class="w-32 mx-auto" alt="icono de fiesta" />
         <div class="title-pd py-4">
             <h3 class="font-parisienne text-5xl text-color01">Cena & Fiesta</h3>
         </div>
@@ -56,7 +56,7 @@ import fiesta from '@images/celebration.gif';
                 </span>
             </li>
             <li>
-                <p class="text-[28px] text-[#6F6F6E] font-medium">Lugar</p>
+                <p class="text-[28px] text-[#6F6F6E] font-medium">Destino</p>
                 <span class="text-[20px] font-normal text-[#C6C6C5]">
                     Finca Los Sauces
                 </span>
