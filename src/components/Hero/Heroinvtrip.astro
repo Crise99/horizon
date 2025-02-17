@@ -1,0 +1,127 @@
+---
+/**
+ * * Hero with background image
+ * You'll want a mobile image, and a desktop image for this.
+ */
+
+import { Image } from "astro:assets";
+
+// components
+import Button from "@components/Button/Button.astro";
+
+// images
+import heroImage from "@images/map.img";
+import heroImageMobile from "@images/map.img";
+import markopen from "@images/mark_open.svg";
+import markclose from "@images/mark_close.svg";
+---
+
+<section
+  id="hero"
+  class="relative flex min-h-[100lvh] w-full bg-black bg-opacity-50"
+>
+  <!-- background image -->
+  <div class="absolute -z-20 h-full min-h-full w-full overflow-hidden">
+    <Image
+      src={heroImage}
+      class="hidden h-auto min-h-full w-full object-cover object-bottom sm:block"
+      alt="wedding"
+      aria-hidden="true"
+      loading="eager"
+      height={1400}
+    />
+    <Image
+      src={heroImageMobile}
+      class="h-auto min-h-full w-full object-cover sm:hidden"
+      alt="wedding"
+      aria-hidden="true"
+      loading="eager"
+      width={1200}
+    />
+  </div>
+
+  <!-- hero items -->
+  <div
+    class="site-container w-full gap-10 py-44 text-center md:py-52 md:text-center"
+  >
+    <!-- Hero text -->
+    <div class="my-auto mx-auto max-w-[800px] flex-col text-base-50 text-center">
+      <h1
+        class="font-heading-1 text-pretty text-4xl font-semibold drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] md:text-7xl md:leading-tight"
+      >
+        08.06.2025
+
+      </h1>
+      <h1
+      class="font-heading-1 text-pretty text-4xl font-semibold drop-shadow-[0_2px_2px_rgba(0,0,0,0.4)] md:text-7xl md:leading-tight"
+      >
+      Nuria & Cristian
+
+      </h1>
+      <img src={markopen.src} class="w-10 mx-auto" />
+      <p
+        class="mt-8 text-pretty text-lg tracking-widest drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] md:max-w-[550px] md:text-2xl mx-auto"
+      >
+        En cada mirada, en cada gesto, en cada silencio compartido, encontramos la esencia de lo que significa amarnos..
+      </p>
+      <img src={markclose.src} class="w-10 mx-auto" />
+      <div class="mt-10 flex flex-wrap justify-center gap-4">
+        <Button
+          variant="ghost"
+          arrow="right"
+          href="#contact"
+          class="pl-0 text-xl text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] md:text-3xl"
+        >
+          Confirmación de asistencia
+        </Button>
+      </div>
+    </div>
+  </div>
+</section>
+<style>
+  .date-hero::before,
+  .date-hero::after {
+      border-top: 1px solid white;
+      content: "";
+      display: table-cell;
+      position: relative;
+      top: 0.7em;
+      width: 25%;
+  }
+  #parrallax-hero {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 725px;
+      object-fit: cover;
+
+  }
+
+  .hero-section::before {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 725px;
+      background-color: rgba(29, 29, 27, 0.2);
+      z-index: 0;
+      top: 0;
+      left: 0;
+  }
+  @media (min-width: 993px) {
+      #parrallax-hero {
+          height: 725px;
+      }
+      .hero-section::before {
+          height: 725px;
+      }
+  }
+  @media (min-width: 1745px) {
+      #parrallax-hero {
+          height: 100vh;
+      }
+      .hero-section::before {
+          height: 100vh;
+      }
+  }
+</style>

@@ -26,21 +26,8 @@ const navConfig: navItem[] = [
     link: "/invitacion",
   },
   {
-    text: "Pages",
-    dropdown: [
-      {
-        text: "Portfolio",
-        link: "/portfolio/couple-1",
-      },
-      {
-        text: "Legal",
-        link: "/privacy-policy/",
-      },
-      {
-        text: "Elements",
-        link: "/elements/",
-      },
-    ],
+    text: "invitación trip",
+    link: "/invitaciontrip",
   },
 ];
 

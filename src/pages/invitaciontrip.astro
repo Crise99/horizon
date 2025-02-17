@@ -1,0 +1,27 @@
+---
+
+// layout
+import BaseLayout from "@layouts/BaseLayout.astro";
+
+// components
+import Heroinvtrip from "@components/Hero/Heroinvtrip.astro";
+import Contact from "@components/Contact/Contact.astro";
+import Countdown from "../components/Countdown.astro";
+import PrincipalDate from "../components/PrincipalDate.astro";
+import Message from "@components/Message.astro";
+
+// data
+import siteData from "@config/siteData.json";
+---
+
+<BaseLayout
+  title={siteData.title}
+  description={siteData.description}
+  navStartStyle="white"
+>
+    <Heroinvtrip />
+    <Countdown />
+    <PrincipalDate />
+    <Message />
+    <Contact />
+</BaseLayout>
