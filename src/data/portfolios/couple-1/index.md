@@ -1,6 +1,6 @@
 ---
-title: A mountain escape
-description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
+title: Pedida en Gdansk
+description: Nuestro último viaje, por el cual estamos hoy aquí.
 heroImage: ./couple-9-square.jpg
 date: "Aug 5 2024"
 location: Gdansk, Polonia
