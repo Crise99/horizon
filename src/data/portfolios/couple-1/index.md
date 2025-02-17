@@ -1,7 +1,7 @@
 ---
 title: Pedida en Gdansk
 description: Nuestro último viaje, por el cual estamos hoy aquí.
-heroImage: ./couple-9-square.jpg
+heroImage: ./Gdansk-Int.jpg
 date: "Aug 5 2024"
 location: Gdansk, Polonia
 clients: [Nuria, Cristian]
@@ -9,7 +9,7 @@ images:
   [
     [./couple-2-min-1.jpg, ./couple-2-min-1.jpg],
     [./rings-wood-min-1.jpg, ./seals-min-1.jpg, ./rings-wood-min-1.jpg],
-    [./couple-9-1.jpg],
+    [./Gdansk.jpg],
     [./cake-min-1.jpg, ./dress-min-1.jpg],
   ]
 order: 1
