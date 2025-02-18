@@ -34,15 +34,26 @@ const firstThreeTestimonials = sortedTestimonials.slice(0, 3);
   >
     <TestimonialCard
       testimonial={firstThreeTestimonials[0]}
-      imagePosition="top"
-    />
-    <TestimonialCard
-      testimonial={firstThreeTestimonials[1]}
       imagePosition="bottom"
     />
     <TestimonialCard
-      testimonial={firstThreeTestimonials[2]}
+      testimonial={firstThreeTestimonials[1]}
       imagePosition="top"
+    />
+    <TestimonialCard
+      testimonial={firstThreeTestimonials[2]}
+      imagePosition="bottom"
     />
   </div>
 </section>
+<style>
+  section {
+      width: 100%;
+      background-image: url('/src/assets/images/Fondo6.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+}
+</style>
