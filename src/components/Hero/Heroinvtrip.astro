@@ -12,6 +12,7 @@ import Button from "@components/Button/Button.astro";
 // images
 import heroImage from "@images/mapa.jpg";
 import heroImageMobile from "@images/mapa.jpg";
+import arrowdown from "@images/arrow_down.gif";
 ---
 
 <section
@@ -61,8 +62,9 @@ import heroImageMobile from "@images/mapa.jpg";
           href="#Countdown"
           class="pl-0 text-xl text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] md:text-3xl"
         >
-          Continuar
+          
         </Button>
+        <img src={arrowdown} class="w-14 desktop:w-20" alt="" />
       </div>
     </div>
   </div>
