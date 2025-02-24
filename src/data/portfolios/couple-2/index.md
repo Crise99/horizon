@@ -4,7 +4,7 @@ description: Unas semanas fantásticas en un país increíble.
 heroImage: ./IMG-20.jpg
 date: "Sep 6 2023"
 location: Estambul, Turquía
-clients: [Nuria, Cristian,MªJesús y Maria]
+clients: [Nuria, Cristian]
 images:
   [
     [./Turquia.jpg, ./Ruinas.jpg],

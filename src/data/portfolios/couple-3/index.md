@@ -2,7 +2,7 @@
 title: Cumpleaños en Lisboa
 description: ¿Puede existir algo mejor que un viaje sorpresa como regalo de cumpleaños?
 heroImage: ./Lisboa1.jpg
-date: "Ene 22 2022"
+date: "Jan 22 2022"
 location: Lisboa, Portugal
 clients: [Nuria, Cristian]
 images:
