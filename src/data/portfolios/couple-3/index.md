@@ -1,18 +1,18 @@
 ---
-title: A high-class affair
-description: Relive the elegance of your venue and the grandeur of your wedding through artistic photography.
-heroImage: ./couple-4-square.jpg
-date: "Apr 15 2024"
-location: Houston, Texas
-clients: [Julia, David]
+title: Cumpleaños en Lisboa
+description: ¿Puede existir algo mejor que un viaje sorpresa como regalo de cumpleaños?
+heroImage: ./Lisboa1.jpg
+date: "Ene 22 2022"
+location: Lisboa, Portugal
+clients: [Nuria, Cristian]
 images:
   [
-    [./couple-2-min-3.jpg, ./couple-2-min-3.jpg],
-    [./rings-wood-min-3.jpg, ./seals-min-3.jpg, ./rings-wood-min-3.jpg],
-    [./couple-9-3.jpg],
-    [./cake-min-3.jpg, ./dress-min-3.jpg],
+    [./Nuria3.jpg, ./Cristian2.jpg],
+    [./Lisboa3.jpg, ./Sol2.jpg, ./Sol1jpg],
+    [./Lisboa2.jpg],
+    [./Cristian.jpg, ./Nuria3.jpg],
   ]
 order: 3
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+Lisboa es la capital costera y montañosa de Portugal. Desde el imponente castillo de San Jorge, la vista abarca los edificios de colores pastel en la ciudad antigua, el estuario del Tajo y el puente colgante 25 de Abril. Cerca, el Museo Nacional del Azulejo exhibe 5 siglos de azulejos de cerámica decorativos. Justo fuera de Lisboa hay una franja de playas en el Atlántico, desde Cascaes hasta Estoril.

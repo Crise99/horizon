@@ -1,10 +1,10 @@
 ---
 title: Turquía Inolvidable
-description: The sandy shores, kissed by gentle waves, provided a serene backdrop for your beach wedding.
+description: Unas semanas fantásticas en un país increíble.
 heroImage: ./IMG-20.jpg
 date: "Sep 6 2023"
 location: Estambul, Turquía
-clients: [Nuria, Cristian]
+clients: [Nuria, Cristian,MªJesús y Maria]
 images:
   [
     [./Turquia.jpg, ./Ruinas.jpg],
