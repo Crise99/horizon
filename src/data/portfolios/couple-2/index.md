@@ -1,16 +1,16 @@
 ---
 title: Turquía Inolvidable
 description: The sandy shores, kissed by gentle waves, provided a serene backdrop for your beach wedding.
-heroImage: ./couple-3-square.jpg
+heroImage: ./IMG-20.jpg
 date: "Sep 6 2023"
 location: Estambul, Turquía
 clients: [Nuria, Cristian]
 images:
   [
-    [./couple-2-min-2.jpg, ./couple-2-min-2.jpg],
-    [./rings-wood-min-2.jpg, ./seals-min-2.jpg, ./rings-wood-min-2.jpg],
-    [./couple-9-2.jpg],
-    [./cake-min-2.jpg, ./dress-min-2.jpg],
+    [./Turquia.jpg, ./Ruinas.jpg],
+    [./Ruinas2.jpg, ./sientate.jpg, ./Piedra.jpg],
+    [./Paraguas.jpg],
+    [./Barco.jpg, ./Juntos.jpg],
   ]
 order: 2
 ---
