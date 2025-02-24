@@ -8,7 +8,7 @@ clients: [Nuria, Cristian]
 images:
   [
     [./Turquia.jpg, ./Ruinas.jpg],
-    [./Ruinas2.jpg, ./sientate.jpg, ./Piedra.jpg],
+    [./Ruinas.jpg, ./sientate.jpg, ./Piedra.jpg],
     [./Paraguas.jpg],
     [./Barco.jpg, ./Juntos.jpg],
   ]
