@@ -8,7 +8,7 @@ clients: [Nuria, Cristian]
 images:
   [
     [./Nuria3.jpg, ./Cristian2.jpg],
-    [./Lisboa3.jpg, ./Sol2.jpg, ./Sol1jpg],
+    [./Lisboa3.jpg, ./Sol2.jpg, ./Sol1.jpg],
     [./Lisboa2.jpg],
     [./Cristian.jpg, ./Nuria3.jpg],
   ]
