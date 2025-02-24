@@ -1,18 +1,18 @@
 ---
 title: Pedida en Gdansk
 description: Nuestro último viaje, por el cual estamos hoy aquí.
-heroImage: ./Gdansk-Int.jpg
+heroImage: ./Gdansk2.jpg
 date: "Aug 5 2024"
 location: Gdansk, Polonia
 clients: [Nuria, Cristian]
 images:
   [
-    [./couple-2-min-1.jpg, ./couple-2-min-1.jpg],
-    [./rings-wood-min-1.jpg, ./seals-min-1.jpg, ./rings-wood-min-1.jpg],
+    [./NuriaGDSK.jpg, ./Cristiangalleta.jpg],
+    [./tiovivo.jpg, ./Pedida.jpg, ./Pedida2.jpg],
     [./Gdansk.jpg],
-    [./cake-min-1.jpg, ./dress-min-1.jpg],
+    [./Castillo.jpg, ./Gdansk-Int.jpg],
   ]
 order: 1
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+Gdansk es una ciudad portuaria en la costa del Báltico de Polonia. En el centro de la Ciudad Principal, reconstruida después de la Segunda Guerra Mundial, se encuentran las coloridas fachadas del Mercado Largo, que actualmente alberga tiendas y restaurantes. Cerca se ubica la Fuente de Neptuno, un símbolo del siglo XVII de la ciudad con una estatua de bronce del dios del mar en su parte superior. Gdansk es también el núcleo del comercio de ámbar en el mundo y las tiendas de la ciudad venden la resina fosilizada.
