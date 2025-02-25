@@ -6,7 +6,7 @@ const resend = new Resend(import.meta.env.RESEND_API_KEY);
 export const server = {
     send: defineAction({
          accept: "form",
-         imput:z.object({
+         input:z.object({
              name: z.string().name(),
              email: z.string().email(),
              telefono: z.string().telefono(),
