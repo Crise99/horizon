@@ -1,13 +1,20 @@
 ---
+
+import { actions } from "astro:actions";
+const result = Astro.getActionsResult(actions.send);
+if (result?.data) {
+  return Astro.redirect("/");
+}
 // components
 import Button from "@components/Button/Button.astro";
 ---
 
 <form
-  action="api/send"
+  action={actions.send}
   id="contact-form"
   name="contact form"
   class="flex h-full flex-col justify-between gap-4"
+  method="post"
 >
   <input type="hidden" name="form-name" value="contact" />
   <div>
