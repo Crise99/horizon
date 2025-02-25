@@ -8,9 +8,9 @@ clients: [Nuria, Cristian]
 images:
   [
     [./NuriaGDSK.jpg, ./Cristiangalleta.jpg],
-    [./tiovivo.jpg, ./Pedida.jpg, ./Pedida2.jpg],
+    [./Anillo.jpeg, ./Pedida.jpg, ./Pedida2.jpg],
     [./Gdansk.jpg],
-    [./Anillo.jpeg, ./Gdansk-Int.jpg],
+    [./Tiovivo.jpg, ./Castillo.jpg],
   ]
 order: 1
 ---
